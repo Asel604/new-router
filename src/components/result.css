@@ -1,0 +1,37 @@
+.results{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.result{
+    width: 200px;
+    height: 340px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 4px 0px black;
+    padding: 10px;
+}
+.result-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.content h4{
+    color: rgb(61, 5, 5);
+    font-size: 15px;
+    }
+.content h6{
+    color: rgb(4, 23, 48);
+    font-size: 10px;
+}
+
+.price h5{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #154a16;
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+   
+}

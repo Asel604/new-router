@@ -1,0 +1,14 @@
+
+.prof-cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    width: 1200px;
+    margin-left: 30px;
+   
+}
+
+.prof-cont img{
+    width: 250px;
+    height: 250px;
+}
